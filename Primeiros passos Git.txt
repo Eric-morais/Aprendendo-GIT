@@ -11,3 +11,6 @@ Olá esse arquivo contém informaçoes sobre os meus primeiros passos no GIT.
 7- Após o commit, para enviar os arquivos para nuvem é necessario realizar um outro comando chamando git push, porem para realizar esse procedimento é necessario ter realizado a devida configuração para os arquivos irem para repositorio na nuvem (GITHUB) e esse procedimento é git remote add origin link pego la no repositorio do github.
 8- Para ver o historico das versoes é necessario digitar o comando git reflog esse comando permite verificar todas as versoes que foi versionada. para alterar as versao voltando para anterior a um comando que é:
 9- Git reset --hard (codigo obtido pelo comando git reflog) apertar enter e a alteracao para a versao anterior sera feita para voltar ao que era basta fazer o mesmo prossedimento com novo codigo que o reflog mostrara
+10- para verificar BRANCH (pasta) em que está é necessario digitar o comando git branch e apos ele listara as brench disponivel notamos que a branch em que estiver selecinada ela estará com asteristico* ao lado.
+11- para criar uma branch nova utilizara o comando git Branche e o nome da branch  
+12- para alterar a branch é necessario um comando git checkout e o nome da branch que quero ir , apartir daí tudo que for alterado ou acresentado ela sera salvo na branch nova. 
