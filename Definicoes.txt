@@ -1,0 +1,42 @@
+Lista com os comandos do Git para iniciante:
+
+*git init - Cria um repositório Git local.
+*git add - Adiciona arquivos ao staging area.
+*git commit - Grava um snapshot do staging area no repositório local.
+*git status - Mostra o status do repositório local.
+*git log - Lista o histórico de commits do repositório local.
+*git branch - Cria ou lista as branches do repositório local.
+*git checkout - Troca de branch.
+*git merge - Mescla as alterações de uma branch em outra.
+*git push - Envia as alterações do repositório local para um repositório remoto.
+*git pull - Recebe as alterações de um repositório remoto para o repositório local.
+
+Aqui está uma breve explicação de cada comando:
+
+*git init - O comando git init cria um repositório Git local. Ele cria um diretório chamado .git no diretório atual. O diretório .git contém todos os arquivos e dados necessários para gerenciar o repositório Git.
+
+*git add - O comando git add adiciona arquivos ao staging area. O staging area é uma área intermediária entre os arquivos do working tree e o repositório local. Os arquivos no staging area são prontos para serem gravados no repositório local.
+
+*git commit - O comando git commit grava um snapshot do staging area no repositório local. O snapshot é chamado de commit. Cada commit contém uma mensagem descritiva das alterações feitas nos arquivos.
+
+*git status - O comando git status mostra o status do repositório local. Ele mostra os arquivos que foram modificados, adicionados ou removidos desde o último commit.
+
+*git log - O comando git log lista o histórico de commits do repositório local. Ele mostra as mensagens dos commits, os autores dos commits e os datas dos commits.
+
+*git branch - O comando git branch cria ou lista as branches do repositório local. Uma branch é uma versão independente do código-fonte do projeto.
+
+*git checkout - O comando git checkout troca de branch. Ele muda o working tree para a branch especificada.
+git merge - O comando git merge mescla as alterações de uma branch em outra. Ele combina as alterações de duas branches em uma única branch.
+
+*git push - O comando git push envia as alterações do repositório local para um repositório remoto. O repositório remoto pode ser hospedado em um serviço online, como o GitHub ou o GitLab.
+
+*git pull - O comando git pull recebe as alterações de um repositório remoto para o repositório local. Ele combina as alterações do repositório remoto com as alterações do repositório local.
+
+Esses comandos são os mais básicos do Git. Ao aprender a usá-los, você poderá começar a gerenciar seu código-fonte com o Git.
+
+Aqui estão alguns outros comandos que podem ser úteis para iniciantes:
+
+-git diff - Mostra as diferenças entre o working tree e o staging area.
+-git stash - Armazena as alterações do working tree em uma área temporária.
+-git revert - Desfaz um commit.
+-git reset - Redefine o HEAD para um commit específico.
